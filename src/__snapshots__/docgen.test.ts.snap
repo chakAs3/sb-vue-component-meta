@@ -1,0 +1,235 @@
+// Vitest Snapshot v1
+
+exports[`extract props from Vue component file   1`] = `
+{
+  "events": [
+    {
+      "name": "click",
+      "rawType": undefined,
+      "schema": [
+        "number",
+      ],
+      "signature": "(event: \\"click\\", id: number): void",
+      "type": "[id: number]",
+    },
+  ],
+  "exposed": [
+    {
+      "description": "The label of the button",
+      "name": "label",
+      "rawType": undefined,
+      "schema": "string",
+      "type": "string",
+    },
+    {
+      "description": "primary or secondary button",
+      "name": "primary",
+      "rawType": undefined,
+      "schema": {
+        "kind": "enum",
+        "schema": [
+          "false",
+          "true",
+        ],
+        "type": "boolean",
+      },
+      "type": "boolean",
+    },
+    {
+      "description": "size of the button",
+      "name": "size",
+      "rawType": undefined,
+      "schema": {
+        "kind": "enum",
+        "schema": [
+          "undefined",
+          "\\"small\\"",
+          "\\"medium\\"",
+          "\\"large\\"",
+        ],
+        "type": "\\"small\\" | \\"medium\\" | \\"large\\" | undefined",
+      },
+      "type": "\\"small\\" | \\"medium\\" | \\"large\\" | undefined",
+    },
+    {
+      "description": "background color of the button",
+      "name": "backgroundColor",
+      "rawType": undefined,
+      "schema": {
+        "kind": "enum",
+        "schema": [
+          "undefined",
+          "string",
+        ],
+        "type": "string | undefined",
+      },
+      "type": "string | undefined",
+    },
+  ],
+  "props": [
+    {
+      "default": "false",
+      "description": "primary or secondary button",
+      "global": false,
+      "name": "primary",
+      "rawType": undefined,
+      "required": false,
+      "schema": {
+        "kind": "enum",
+        "schema": [
+          "undefined",
+          "false",
+          "true",
+        ],
+        "type": "boolean | undefined",
+      },
+      "tags": [],
+      "type": "boolean | undefined",
+    },
+    {
+      "description": "",
+      "global": true,
+      "name": "key",
+      "rawType": undefined,
+      "required": false,
+      "schema": {
+        "kind": "enum",
+        "schema": [
+          "undefined",
+          "string",
+          "number",
+          "symbol",
+        ],
+        "type": "string | number | symbol | undefined",
+      },
+      "tags": [],
+      "type": "string | number | symbol | undefined",
+    },
+    {
+      "description": "",
+      "global": true,
+      "name": "ref",
+      "rawType": undefined,
+      "required": false,
+      "schema": {
+        "kind": "enum",
+        "schema": [
+          "undefined",
+          "string",
+          "Ref<any>",
+          {
+            "kind": "event",
+            "schema": [],
+            "type": "(ref: Element | ComponentPublicInstance<{}, {}, {}, {}, {}, {}, {}, {}, false, ComponentOptionsBase<any, any, any, any, any, any, any, any, any, {}, {}, string>, {}> | null, refs: Record<...>): void",
+          },
+        ],
+        "type": "VNodeRef | undefined",
+      },
+      "tags": [],
+      "type": "VNodeRef | undefined",
+    },
+    {
+      "description": "",
+      "global": true,
+      "name": "ref_for",
+      "rawType": undefined,
+      "required": false,
+      "schema": {
+        "kind": "enum",
+        "schema": [
+          "undefined",
+          "false",
+          "true",
+        ],
+        "type": "boolean | undefined",
+      },
+      "tags": [],
+      "type": "boolean | undefined",
+    },
+    {
+      "description": "",
+      "global": true,
+      "name": "ref_key",
+      "rawType": undefined,
+      "required": false,
+      "schema": {
+        "kind": "enum",
+        "schema": [
+          "undefined",
+          "string",
+        ],
+        "type": "string | undefined",
+      },
+      "tags": [],
+      "type": "string | undefined",
+    },
+    {
+      "description": "",
+      "global": true,
+      "name": "class",
+      "rawType": undefined,
+      "required": false,
+      "schema": "unknown",
+      "tags": [],
+      "type": "unknown",
+    },
+    {
+      "description": "",
+      "global": true,
+      "name": "style",
+      "rawType": undefined,
+      "required": false,
+      "schema": "unknown",
+      "tags": [],
+      "type": "unknown",
+    },
+    {
+      "description": "The label of the button",
+      "global": false,
+      "name": "label",
+      "rawType": undefined,
+      "required": true,
+      "schema": "string",
+      "tags": [],
+      "type": "string",
+    },
+    {
+      "description": "size of the button",
+      "global": false,
+      "name": "size",
+      "rawType": undefined,
+      "required": false,
+      "schema": {
+        "kind": "enum",
+        "schema": [
+          "undefined",
+          "\\"small\\"",
+          "\\"medium\\"",
+          "\\"large\\"",
+        ],
+        "type": "\\"small\\" | \\"medium\\" | \\"large\\" | undefined",
+      },
+      "tags": [],
+      "type": "\\"small\\" | \\"medium\\" | \\"large\\" | undefined",
+    },
+    {
+      "description": "background color of the button",
+      "global": false,
+      "name": "backgroundColor",
+      "rawType": undefined,
+      "required": false,
+      "schema": {
+        "kind": "enum",
+        "schema": [
+          "undefined",
+          "string",
+        ],
+        "type": "string | undefined",
+      },
+      "tags": [],
+      "type": "string | undefined",
+    },
+  ],
+  "slots": [],
+}
+`;
